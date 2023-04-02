@@ -1,0 +1,31 @@
+.container-fluid{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+*{
+    font-size: 17px;
+}
+header {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  body{
+    margin: 0 auto;
+    padding: 0%;
+    display: flex;
+    overflow-x: hidden;
+}
+#background{
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 50%;
+    max-width: 150%;
+} 
+  
