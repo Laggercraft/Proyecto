@@ -44,6 +44,8 @@
         </li>
         <li><a href="https://meiyo.cl/collections/poleras" target="_blank">Tienda de Ropa</a></li>
         <li><a href="https://www.mirax.cl/index.php?menu=445" target="_blank">Tienda de Jugetes</a></li>
+        <li><a href="#" onclick="abrirVentana(); return false;" >Juego</a></li>
+        <li><a href="#" onclick="abrirEnlaces()">Prueba Ram</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="pag/register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -52,9 +54,17 @@
     </div>
   </div>
 </nav>
+
+<script>
+  function abrirVentana(){
+    var ventana = window.open("https://play.famobi.com/emoji-flow", "ventanaEmergente","whith=350, height=300");
+  }
+</script>
+
+
 <div id="background">
   <img src="img/BackgroundAnime.png" alt="shadow">
 </div>
-
+<script src="js/scripmenu.js"></script>
 </body>
 </html>
